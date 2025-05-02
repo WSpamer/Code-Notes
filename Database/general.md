@@ -7,6 +7,7 @@
 ## Software
 
 Time-Series Database: <https://www.timescale.com/>
+DuckDB: <https://www.youtube.com/watch?v=siDU41S3lw8>
 
 ## Tutorials
 

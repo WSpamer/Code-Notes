@@ -2,13 +2,13 @@
 
 ## 1) Git
 
-Link: https://happygitwithr.com/
+Link: <https://happygitwithr.com/>
 
 ### 1.1) Generate Token
 
 ### Browser
 
-1. Go to: https://github.com/settings/tokens
+1. Go to: <https://github.com/settings/tokens>
 2. Select Token (Classic)
 
 ### R
@@ -33,9 +33,9 @@ usethis::create_github_token()
 ## 2) VS Code
 
 Link:
-https://code.visualstudio.com/docs/languages/r
+<https://code.visualstudio.com/docs/languages/r>
 
-#### Radian
+## Radian
 
 Link:
-https://github.com/randy3k/radian
+<https://github.com/randy3k/radian>
