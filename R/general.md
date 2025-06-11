@@ -39,3 +39,8 @@ Link:
 
 Link:
 <https://github.com/randy3k/radian>
+
+## Python in R
+
+Package: reticulate
+Link: <https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html>

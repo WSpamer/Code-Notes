@@ -82,3 +82,7 @@ ORM: <https://www.youtube.com/watch?v=46au1MxtOJE&list=PL-2EBeDYMIbQXKsyNweppuFp
 ## Celery
 
 <https://adamj.eu/tech/2020/02/03/common-celery-issues-on-django-projects/>
+
+## Testing
+
+pytest: <https://pytest-with-eric.com/pytest-advanced/pytest-django-restapi-testing/>
