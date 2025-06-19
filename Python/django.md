@@ -109,7 +109,8 @@ Customize Admin: <https://testdriven.io/blog/customize-django-admin/>
 ## Docker
 
 Link: <https://www.youtube.com/watch?v=eZouw1ohH0s&list=PLOLrQ9Pn6caxNFR2PWbHl3laaAI6J-GbN&index=6>
-<https://www.youtube.com/watch?v=37aNpE-9dD4&t=300s>
+Video: <https://www.youtube.com/watch?v=37aNpE-9dD4&t=300s>
+Setup: <https://saasitive.com/tutorial/django-celery-redis-postgres-docker-compose/>
 
 ## Tutorial
 
@@ -150,3 +151,7 @@ ORM: <https://www.youtube.com/watch?v=46au1MxtOJE&list=PL-2EBeDYMIbQXKsyNweppuFp
 ## Celery
 
 <https://adamj.eu/tech/2020/02/03/common-celery-issues-on-django-projects/>
+
+## Testing
+
+pytest: <https://pytest-with-eric.com/pytest-advanced/pytest-django-restapi-testing/>

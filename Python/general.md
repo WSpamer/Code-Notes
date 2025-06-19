@@ -1,5 +1,11 @@
 # General
 
+## UI
+
+[Streamlit](https://docs.streamlit.io/)
+
+# General
+
 ## Scripts
 
 Add project path to .env file

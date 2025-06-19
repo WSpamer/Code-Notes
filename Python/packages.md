@@ -13,3 +13,21 @@
 <https://packaging.python.org/en/latest/guides/section-install/>
 <https://stackoverflow.com/questions/6956690/best-practice-for-reusing-python-code>
 <https://build.pypa.io/en/latest/installation.html>
+
+## Success Comments
+
+<https://sarahglasmacher.com/how-to-build-python-package-uv/>
+
+```bash
+# "/home/wspamer/dev/python/packages/nviro_fetch"
+# uv add --editable "/home/wspamer/dev/python/packages/nviro_fetch"
+# uv pip install -e add "/home/wspamer/dev/python/packages/nviro_fetch"
+# uv run --with nviro_fetch --no-project -- python -c "import nviro_fetch"
+# uv pip install /home/wspamer/dev/python/packages/nviro_fetch/dist/nviro_fetch-0.1.0-py3-none-any.whl
+# uv pip install -e /home/wspamer/dev/python/packages/nviro_fetch/
+```
+
+## Private Repository
+
+Reddit: <https://www.reddit.com/r/Python/comments/17tg1lk/third_party_private_package_hosting/>
+Nexus: <https://help.sonatype.com/en/pypi-repositories.html>
