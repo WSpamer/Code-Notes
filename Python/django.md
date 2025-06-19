@@ -32,6 +32,74 @@ py manage.py runserver
 py manage.py createsuperuser
 py manage.py startapp
 
+## Many-to-Many
+
+### Documentation
+
+Assuming models with a custom through model:
+
+```python
+class Membership(models.Model):
+    person = models.ForeignKey(Person, on_delete=models.CASCADE)
+    group = models.ForeignKey(Group, on_delete=models.CASCADE)
+    date_joined = models.DateField()
+
+class Group(models.Model):
+    name = models.CharField(max_length=50)
+    members = models.ManyToManyField(Person, through='Membership', related_name='groups')
+
+class Person(models.Model):
+    name = models.CharField(max_length=50)
+```
+
+Get groups where a specific person (e.g., with name "John") is a member, filtering by the join date:
+
+```python
+groups = Group.objects.filter(
+    membership__person__name="John",
+    membership__date_joined__lte=date(2025, 5, 28)
+)
+```
+
+### Example
+
+Assuming models with a custom through model:
+
+```python
+class Zone(BaseModel):
+    farm = models.ForeignKey(Farm, on_delete=models.CASCADE)
+    name = models.CharField(max_length=100, default="")
+
+class Device(BaseModel):
+    name = models.CharField(max_length=100)
+    zones = models.ManyToManyField(Zone, through="DeviceZone", blank=True)
+
+class DeviceZone(BaseModel):
+    class LocationTypeChoices(models.TextChoices):
+        INSIDE = "Inside"
+        OUTSIDE = "Outside"
+
+    device = models.ForeignKey(
+        Device, on_delete=models.CASCADE, related_name="device_zones"
+    )
+    zone = models.ForeignKey(
+        Zone, on_delete=models.CASCADE, related_name="device_zones"
+    )
+    type = models.CharField(
+        max_length=10,
+        choices=LocationTypeChoices.choices,
+        default=LocationTypeChoices.INSIDE,
+    )
+```
+
+```python
+devices = models.Device.objects.filter(
+    status="Active",
+    type="Weather",
+    {through_model related_name}__type=models.DeviceZone.LocationTypeChoices.INSIDE,
+)
+```
+
 ## Django Admin
 
 Play List: <https://www.youtube.com/watch?v=QCnefsgalF8&list=PLOLrQ9Pn6cazhaxNDhcOIPYXt2zZhAXKO&index=3>
