@@ -31,3 +31,11 @@
 
 Reddit: <https://www.reddit.com/r/Python/comments/17tg1lk/third_party_private_package_hosting/>
 Nexus: <https://help.sonatype.com/en/pypi-repositories.html>
+
+## Install from Github
+
+```bash
+    pip install git+https://github.com/WSpamer/nviro_fetch.git#egg=nviro_fetch
+    pip install git+https://github.com/<username>/<repository_name>.git#egg=<module_name>
+
+```

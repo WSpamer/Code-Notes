@@ -26,3 +26,9 @@ Adds each element of the iterable to the end of the list.
 If the iterable is a string, each character is added as a separate element.
 The length of the list increases by the number of elements in the iterable.
 Time complexity is O(k), where k is the length of the iterable.
+
+## Testing
+
+### Pytest
+
+https://realpython.com/pytest-python-testing/
