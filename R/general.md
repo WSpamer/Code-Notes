@@ -44,3 +44,16 @@ Link:
 
 Package: reticulate
 Link: <https://cran.r-project.org/web/packages/reticulate/vignettes/calling_python.html>
+
+## 3) Global packages
+
+```R
+   install.packages("renv")
+   install.packages("devtools")
+   devtools::install_github("rstudio/addinexamples", type = "source")
+
+```
+
+## Misc
+
+[Using RStudio Server in Windows WSL2](https://support.posit.co/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2)
