@@ -54,6 +54,12 @@ Link: <https://cran.r-project.org/web/packages/reticulate/vignettes/calling_pyth
 
 ```
 
+## Promising Packages
+
+[simET](https://cran.r-project.org/web/packages/simET/simET.pdf)
+
 ## Misc
 
 [Using RStudio Server in Windows WSL2](https://support.posit.co/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2)
+[Python in R](https://rstudio.github.io/reticulate/)
+[R Web API](https://www.rplumber.io/)

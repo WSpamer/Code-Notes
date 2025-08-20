@@ -119,6 +119,7 @@ ORM: <https://www.youtube.com/watch?v=46au1MxtOJE&list=PL-2EBeDYMIbQXKsyNweppuFp
 
 ## Extensions
 
+[django-simple-history](https://django-simple-history.readthedocs.io/en/stable/)
 <https://github.com/django-commons>
 <https://github.com/django-import-export/django-import-export>
 
@@ -133,6 +134,8 @@ ORM: <https://www.youtube.com/watch?v=46au1MxtOJE&list=PL-2EBeDYMIbQXKsyNweppuFp
 <https://www.hacksoft.io/category/django>
 
 ## Misc
+
+[Split Settings](https://code.djangoproject.com/wiki/SplitSettings)
 
 ## Django in Jupyter
 
