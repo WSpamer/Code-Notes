@@ -5,6 +5,7 @@
 <https://stackoverflow.com/questions/79533324/how-to-install-a-local-package-with-uv>
 <https://www.reddit.com/r/learnpython/comments/1ftd6y2/has_anyone_used_uv_with_local_package_dependency/>
 <https://docs.astral.sh/uv/guides/package/#publishing-your-package>
+[Building and Publishing Packages](https://realpython.com/python-uv/)
 
 ## Setup Tools
 
