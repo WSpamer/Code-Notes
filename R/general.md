@@ -54,6 +54,17 @@ Link: <https://cran.r-project.org/web/packages/reticulate/vignettes/calling_pyth
 
 ```
 
+## 4) Addins
+
+### 4.1) Installed
+
+- addinmanager
+- addinslist
+- colourpicker
+- esquisse
+- pkgsearch
+- remedy
+
 ## Promising Packages
 
 [simET](https://cran.r-project.org/web/packages/simET/simET.pdf)
